@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  web:
+    build: .
+    container_name: static-httpd
+    ports:
+      - "3010:80"
+    volumes:
+      - ./index.html:/usr/local/apache2/htdocs/index.html
+      - ./w3images:/usr/local/apache2/htdocs/w3images
+    restart: unless-stopped
