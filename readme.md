@@ -35,3 +35,5 @@ Run prepared command in command.sh
 
 - docker compose up -d --build
 - open browser and check at: http://localhost:3010
+
+## 3 Build with jenkins
