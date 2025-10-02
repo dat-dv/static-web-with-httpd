@@ -1,4 +1,6 @@
-## Build basic docker image
+# Readme
+
+## 1.Build basic docker image
 
 ### Example: Create basic static web with httpd service
 
@@ -28,3 +30,8 @@ Run prepared command in command.sh
 3. Build image & run container again
 
 - bash command.sh
+
+## 2.Build basic with docker compose
+
+- docker compose up -d --build
+- open browser and check at: http://localhost:3010
